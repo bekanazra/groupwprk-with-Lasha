@@ -1,0 +1,22 @@
+.photo {
+    position: relative;
+}
+.picture {
+    width: 900px;
+    height: 491px;
+    padding: 30px;
+    margin: 15px;
+}
+.text-on-picture{
+    position: absolute;
+
+    bottom: 150px;
+    left: 250px;
+    margin: 100px;
+    padding: 50px
+}
+.text-on-picture1{
+    padding: 150px;
+    font-size: 35px;
+    color: #FFFAFA;
+}
