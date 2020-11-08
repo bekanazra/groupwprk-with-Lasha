@@ -45,15 +45,56 @@ h1{
 }
 .group-count{
     width: 100%;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    height: 40px;
 }
 .interested-in{
     width: 100%;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    height: 40px;
 }
 textarea{
     width: 100%;
     resize: none;
     height: 185px;
+    margin-top: 20px;
 }
 .ateg{
     margin-top: 50px;
+}
+.date{
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    color: #707070;
+    height: 40px;
+}
+.label1{
+    padding-top: 35px;
+    font-size: 24px;
+    color: #707070;
+}
+.label2{
+     font-size: 24px;
+    color: #707070;
+}
+h3{
+    font-size: 24px;
+    color: #707070;
+    margin:20px auto;
+}
+.contacts{
+    color: #707070;
+    padding-top: 10px;
+}
+.clock{
+    color: #707070;
+    padding-top: 10px;
+}
+.last{
+    font-size: 24px;
+    color: #707070;
+    margin:20px auto;
 }
