@@ -20,3 +20,40 @@
     font-size: 35px;
     color: #FFFAFA;
 }
+.mega{
+    margin: 95px 85px 50px 44px;
+}
+img{
+    width: 694px;
+}
+h1{
+    font-size: 40px;
+    padding-right: 165px;
+}
+.container{
+    height: 462.5px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap;
+}
+.send{
+    background: none;
+    background-color: #103ADA;
+    padding: 8px 40px;
+    color: white;
+}
+.group-count{
+    width: 100%;
+}
+.interested-in{
+    width: 100%;
+}
+textarea{
+    width: 100%;
+    resize: none;
+    height: 185px;
+}
+.ateg{
+    margin-top: 50px;
+}
