@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
         <title>exersize10</title>
 </head>
@@ -12,52 +13,54 @@
 		</div>
 		<div class="group">
 			<form>
-				<div>
+				<div class="label1">
+					<label for="date">When are you planning to visit?</label>
+					<input type="date" name="date" id="date" class="date">
+				</div>
+				<div class="label2">
 					<label for="group">How many people are in your group?</label>
-					<div></div>
 					<input type="text" name="group" id="group" class="group-count">
 				</div>
-				<div>
+				<div class="label2">
 					<label for="tours">Which tours or events are you most interested in?</label>
-					<div></div>
 					<input type="text" name="tours" id="tours" class="interested-in">
 				</div>
 				<div>
 					<h3>What is the best way to contact you?</h3>
-					<div>
+					<div class="contacts">
 						<input type="checkbox" name="checkbox" id="checkbox">
 						<label for="checkbox">Phone</label>
 					</div>
-					<div>
+					<div class="contacts">
 						<input type="checkbox" name="checkbox1" id="checkbox1">
 						<label for="checkbox1">Email</label>
 					</div>
-					<div>
+					<div class="contacts">
 						<input type="checkbox" name="checkbox2" id="checkbox2">
 						<label for="checkbox2">Either</label>
 					</div>
 				</div>
 				<div>
 					<h3>If phone, when is the best time of day for a call-back?</h3>
-					<div>
+					<div class="clock">
 						<input type="radio" name="time" id="8-11PM" required>
 						<label for="8-11PM">8-11PM</label>
 					</div>
-					<div>
+					<div class="clock">
 						<input type="radio" name="time" id="12-4AM" required>
 						<label for="12-4AM">12-4AM</label>
 					</div>
-					<div>
+					<div class="clock">
 						<input type="radio" name="time" id="6-10PM" required>
 						<label for="6-10PM">6-10PM</label>
 					</div>
 				</div>
-				<div>
+				<div class="last">
 					<label for="comment">Anything else we should know?</label>
 					<div></div>
 					<textarea name="we-know" id="we-know"></textarea>
 				</div>
-				<div>
+				<div class="last">
 					<label for="comment1">And last, how did you hear about us?</label>
 					<div></div>
 					<textarea name="hear-us" id="hear-us"></textarea>
