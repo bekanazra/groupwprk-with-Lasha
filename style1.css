@@ -13,6 +13,15 @@
     margin: 5px;
     padding: 10px;
 }
+.text-on-picture1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-left: 450px;
+    bottom: 450px;
+    font-size: 40px;
+    color: #fffaff;
+}
 h4 {
     padding: 10px;
 }
