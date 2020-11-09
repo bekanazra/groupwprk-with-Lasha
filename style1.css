@@ -1,2 +1,44 @@
-.photo {
+.Name {
+    width: 100%;
+    margin: 10px;
+}
+.Email {
+    margin: 10px;
+}
+.Phone {
+    margin: 10px;
+}
+.input-form {
+    width: 90%;
+    margin: 5px;
+    padding: 10px;
+}
+h4 {
+    padding: 10px;
+}
+.checkbox {
+    font-size: 20px;
+}
+.checkbox-second {
     position: relative;
+    font-size: 20px;
+}
+h4 {
+    margin: 10px;
+    padding: 10px;
+}
+textarea{
+    width: 90%;
+    resize: none;
+    height: 185px;
+    margin: 10px;
+}
+.ateg{
+    margin-top: 50px;
+}
+.send{
+    background: none;
+    background-color: #103ADA;
+    padding: 8px 40px;
+    color: white;
+}   

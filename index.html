@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="style1.css">
         <title>exersize10</title>
     </head>
     <body>
@@ -13,68 +13,77 @@
                 <p class="text-on-picture1">Tour  Booking  Form</p> 
             </div>     
             <form>
-                <div>
+                <div class="Name">
                     <label for="name">Name</label>
+                </div>
+                <div>
                     <input type="text" name="name" id="name" class="input-form" placeholder="First" required>
                 </div>
                 <div>
                     <label for="lastname"></label>
                     <input type="text" name="lastname" id="lastname" class="input-form" placeholder="Last" required >
                 </div>
-                <div>
+                <div class="Email">
                     <label for="email">Email</label>
+                </div>
+                <div>
                     <input type="email" name="email" id="email" class="input-form" required>
                 </div>
                 <div>
-                    <label for="number">Phone</label>
+                    <div class="Phone">
+                        <label for="number">Phone</label>
+                    </div>
                     <input type="number" name="number" id="number" class="input-form" placeholder="### ### ###" required>
                 </div>
                 <div>
                     <h4>Hobby</h4>
-                    <div>
-                        <input type="checkbox" name="checkbox" id="checkbox">
-                        <label for="checkbox">Reading</label>
+                </div>
+                <div class="main">
+                    <div class="main-box"> 
+                        <div class="checkbox">
+                            <input type="checkbox" name="checkbox" id="checkbox">
+                            <label for="checkbox">Reading</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" name="checkbox1" id="checkbox1">
+                            <label for="checkbox1">Dancing</label>
+                        </div>
+                        <div class="checkbox">
+                          <div>
+                            <input type="checkbox" name="checkbox2" id="checkbox2">
+                            <label for="checkbox2">traveiling</label>
+                        </div>
                     </div>
                     <div>
-                        <input type="checkbox" name="checkbox1" id="checkbox1">
-                        <label for="checkbox1">Dancing</label>
+                        <div class="main-box2">
+                            <div class="checkbox-second">
+                                <input type="checkbox" name="checkbo3" id="checkbox3">
+                                <label for="checkbox3">Coding</label>
+                            </div>
+                            <div class="checkbox-second">
+                                <input type="checkbox" name="checkbox4" id="checkbox4">
+                                <label for="checkbox4">Design</label>
+                            </div>
+                            <div class="checkbox-second">
+                                <input type="checkbox" name="checkbox5" id="checkbox5">
+                                <label for="checkbox5">Either</label>
                     </div>
-                    <div>
-                        <input type="checkbox" name="checkbox2" id="checkbox2">
-                        <label for="checkbox2">traveiling</label>
                     </div>
-                    <div>
-                        <input type="checkbox" name="checkbo3" id="checkbox3">
-                        <label for="checkbox3">Coding</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="checkbox4" id="checkbox4">
-                        <label for="checkbox4">Design</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="checkbox5" id="checkbox5">
-                        <label for="checkbox5">Either</label>
                     </div>
                 </div>
-                <div>
-                    <h5>If phone, when is the best time of day for a call-back?</h5>
-                </div>
-                <div>
-                    <label for="comment">And last, how did you hear about us?</label>
-                    <textarea name="comment" id="comment" cols="40" rows="5"></textarea>
-                </div>
-                <div>
-                    <button>Send</button>
-                </div>
-                
-            </form>   
-        </div>
-
-
-
-
-
-
-
+            </div>
+                    <div>
+                        <h4>If phone, when is the best time of day for a call-back?</h4>
+                    </div>
+                    <div>
+                        <label for="comment1">And last, how did you hear about us?</label>
+                        <div></div>
+                        <textarea name="hear-us" id="hear-us"></textarea>
+                    </div>
+                    <div class="ateg">
+                        <a href="index1.html" class="send">Send</a>
+                    </div>
+                </form>
+                </div>   
     </body>
 </html>
